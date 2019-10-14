@@ -44,15 +44,13 @@
         </ComboBox>
         <TextBlock x:Name="txtColor" HorizontalAlignment="Left" Margin="220,184,0,0" TextWrapping="Wrap" Text="Color" VerticalAlignment="Top" TextDecorations="Underline"/>
         <TextBlock x:Name="txtAviso" HorizontalAlignment="Left" Margin="256,55,0,0" TextWrapping="Wrap" Text="¡Se deben llenar todos los campos!" VerticalAlignment="Top" Foreground="Red" FontStyle="Italic" FontWeight="Bold"/>
-        <ComboBox x:Name="cbRespaldo" HorizontalAlignment="Left" Margin="407,145,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="Si"/>
-            <ComboBoxItem Content="No"/>
-        </ComboBox>
         <TextBlock x:Name="txtRespaldo" HorizontalAlignment="Left" Margin="407,117,0,0" TextWrapping="Wrap" Text="Respaldo" VerticalAlignment="Top" TextDecorations="Underline"/>
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="292,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
         <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="384,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
         <TextBox x:Name="tbDiseñoCama" HorizontalAlignment="Left" Height="23" Margin="408,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TbDiseñoCama_TextChanged"/>
         <TextBlock x:Name="txtDiseñoCama" HorizontalAlignment="Left" Margin="407,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline"><Run Text="Diseño "/><Run Text="("/><Run Text="c"/><Run Text="ama"/><Run Text=")"/></TextBlock>
+        <CheckBox x:Name="chbRespaldo" Content="Respaldo" IsChecked="True" HorizontalAlignment="Left" Margin="411,152,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbTecho" Content="Techo" HorizontalAlignment="Left" Margin="496,152,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

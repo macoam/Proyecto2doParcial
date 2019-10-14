@@ -31,10 +31,6 @@
             <ComboBoxItem Content="No"/>
         </ComboBox>
         <TextBlock x:Name="txtBarniz" HorizontalAlignment="Left" Margin="25,250,0,0" TextWrapping="Wrap" Text="Barniz" VerticalAlignment="Top" TextDecorations="Underline"/>
-        <ComboBox x:Name="cbRespaldo" HorizontalAlignment="Left" Margin="220,146,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="Si"/>
-            <ComboBoxItem Content="No"/>
-        </ComboBox>
         <TextBlock x:Name="txtRespaldo" HorizontalAlignment="Left" Margin="220,118,0,0" TextWrapping="Wrap" Text="Respaldo" VerticalAlignment="Top" TextDecorations="Underline"/>
         <ComboBox x:Name="cbColor" HorizontalAlignment="Left" Margin="220,213,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="Blanco"/>
@@ -50,6 +46,8 @@
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="292,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
         <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="384,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
         <TextBlock x:Name="txtAviso" HorizontalAlignment="Left" Margin="256,55,0,0" TextWrapping="Wrap" Text="¡Se deben llenar todos los campos!" VerticalAlignment="Top" Foreground="Red" FontStyle="Italic" FontWeight="Bold"/>
+        <CheckBox x:Name="chEntero" Content="Entero" IsChecked="True" HorizontalAlignment="Left" Margin="220,153,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbLaMitad" Content="La mitad" HorizontalAlignment="Left" Margin="292,153,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

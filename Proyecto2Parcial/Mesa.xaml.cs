@@ -38,7 +38,7 @@ namespace Proyecto2Parcial
 
         private void BtnGuardar_Click(object sender, RoutedEventArgs e)
         {
-            if (cbTamaño.Text == string.Empty || cbNumeroDePatas.Text == string.Empty || cbBarniz.Text == string.Empty || cbVidrioEncima.Text == string.Empty || tbDiseñoMesa.Text == string.Empty || tbFormaMesa.Text == string.Empty)
+            if (cbTamaño.Text == string.Empty || cbNumeroDePatas.Text == string.Empty || cbBarniz.Text == string.Empty || tbDiseñoMesa.Text == string.Empty || tbFormaMesa.Text == string.Empty)
             {
                 txtAviso.Visibility = Visibility.Visible;
             }

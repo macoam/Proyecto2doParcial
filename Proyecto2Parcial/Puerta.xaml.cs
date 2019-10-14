@@ -29,7 +29,7 @@ namespace Proyecto2Parcial
 
         private void BtnGuardar_Click(object sender, RoutedEventArgs e)
         {
-            if (cbTamaño.Text == string.Empty || cbVentana.Text == string.Empty || cbBarniz.Text == string.Empty || cbPicaporteYCerradura.Text == string.Empty || tbDiseñoPuerta.Text == string.Empty || tbDiseñoVentana.Text == string.Empty)
+            if (cbTamaño.Text == string.Empty || cbVentana.Text == string.Empty || cbBarniz.Text == string.Empty|| tbDiseñoPuerta.Text == string.Empty || tbDiseñoVentana.Text == string.Empty)
             {
                 txtAviso.Visibility = Visibility.Visible;
             }

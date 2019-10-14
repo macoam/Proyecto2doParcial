@@ -20,12 +20,6 @@
         <RadioButton x:Name="rdRobleOscuro" Content="Roble oscuro" HorizontalAlignment="Left" Margin="103,48,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rdAbedul" Content="Abedul" HorizontalAlignment="Left" Margin="103,88,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rdPino" Content="Pino" HorizontalAlignment="Left" Margin="103,68,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cbPicaporteYCerradura" HorizontalAlignment="Left" Margin="25,211,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="Oro"/>
-            <ComboBoxItem Content="Plata"/>
-            <ComboBoxItem Content="Cobre"/>
-            <ComboBoxItem Content="Hierro"/>
-        </ComboBox>
         <TextBlock x:Name="txtPicaporteYCerradura" HorizontalAlignment="Left" Margin="25,183,0,0" TextWrapping="Wrap" Text="Picaporte y cerradura" VerticalAlignment="Top" TextDecorations="Underline"/>
         <ComboBox x:Name="cbBarniz" HorizontalAlignment="Left" Margin="25,278,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="Si"/>
@@ -51,6 +45,8 @@
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="292,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
         <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="384,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
         <TextBlock x:Name="txtAviso" HorizontalAlignment="Left" Margin="256,55,0,0" TextWrapping="Wrap" Text="¡Se deben llenar todos los campos!" VerticalAlignment="Top" Foreground="Red" FontStyle="Italic" FontWeight="Bold"/>
+        <CheckBox x:Name="chbPicaporte" Content="Picaporte" IsChecked="True" HorizontalAlignment="Left" Margin="22,219,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbCerradura" Content="Cerradura" HorizontalAlignment="Left" Margin="103,219,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

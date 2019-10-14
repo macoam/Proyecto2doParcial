@@ -48,11 +48,9 @@
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="292,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
         <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="384,278,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
         <TextBlock x:Name="txtAviso" HorizontalAlignment="Left" Margin="256,55,0,0" TextWrapping="Wrap" Text="¡Se deben llenar todos los campos!" VerticalAlignment="Top" Foreground="Red" FontStyle="Italic" FontWeight="Bold"/>
-        <ComboBox x:Name="cbEstilo" HorizontalAlignment="Left" Margin="407,145,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="Puertas"/>
-            <ComboBoxItem Content="Cajones"/>
-        </ComboBox>
         <TextBlock x:Name="txtEstilo" HorizontalAlignment="Left" Margin="407,117,0,0" TextWrapping="Wrap" Text="Estilo" VerticalAlignment="Top" TextDecorations="Underline"/>
+        <CheckBox x:Name="chbCajones" Content="Cajones" IsChecked="True" HorizontalAlignment="Left" Margin="411,152,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbPuertas" Content="Puertas" HorizontalAlignment="Left" Margin="496,152,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>
